@@ -1,6 +1,6 @@
 # Dr. Maya Reynolds, PsyD — Therapy Practice Redesign
 
-🔗 **Live Demo**: [Dr. Maya Reynolds, PsyD | Anxiety, Trauma & Burnout Therapy in Santa Monica, CA](https://grow-my-therapyassignment.netlify.app/)
+🔗 **Live Demo**: https://grow-my-therapyassignment.netlify.app/
 
 > **Grow My Therapy** — Front-End Developer Internship Assignment  
 > Homepage clone, responsive redesign, and custom section implementation for a modern mental health practice.
