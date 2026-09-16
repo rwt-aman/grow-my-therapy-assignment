@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Dr. Maya Reynolds, PsyD — Website Redesign
 
-## Getting Started
+> **Grow My Therapy** — Front-End Developer Internship Assignment  
+> Faithful layout clone and creative redesign of a mental health practice website.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🌟 Project Overview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This project is a high-polish mental health practice website built as part of the **Grow My Therapy** Front-End Internship assessment. 
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Part 1 (UI Accuracy & Layout Clone)**: Faithfully recreates the layout, section hierarchy, and typography of the [Conejo Valley Family Counseling](https://www.conejovalleycounseling.com/home) template.
+- **Part 2 (Creative Redesign & Copywriting)**: Completely redesigned with an earthy, calming color theme and empathetic copy tailored to **Dr. Maya Reynolds, PsyD**, a Santa Monica psychologist specializing in anxiety, trauma (EMDR), and burnout.
+- **Part 3 (Custom Section)**: Created a brand-new **"Our Office"** section (`#our-office`) featuring practice photos, space details, and Santa Monica sanctuary highlights.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🛠️ Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- **Framework**: [Next.js 16](https://nextjs.org/) (App Router, Turbopack)
+- **Library**: [React 19](https://react.dev/)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/) & CSS Variable Design Tokens
+- **Typography**: Google Fonts — *Cormorant Infant* (Headings & Script Accents) & *Mulish* (Body)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Icons**: Lucide Icons
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🚀 Key Features
 
-## Deploy on Vercel
+1. **Fully Responsive Across Viewports**:
+   - Desktop (1440px+), Tablet (768px), and Mobile (375px).
+   - Interactive mobile navigation drawer with animated hamburger-to-X icon and body scroll locking.
+2. **Earthy, Calming Design Palette**:
+   - Sage Green primary (`#8A9A86`), Soft Slate secondary (`#7A8B99`), Warm Cream backgrounds (`#F5F2EB`), and Charcoal Slate typography (`#2C3E50`).
+3. **SEO-Optimized Copy**:
+   - Tailored H1 headers, OpenGraph meta tags, and natural keyword integration for Santa Monica and California telehealth.
+4. **Interactive FAQs**:
+   - Smooth accordion functionality for patient questions.
+5. **Interactive Custom "Our Office" Section**:
+   - Highlight gallery and three-pillar cards (Santa Monica Sanctuary, In-Person & Telehealth, Grounded Comfort & Safety).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 💻 Getting Started Locally
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/<YOUR_USERNAME>/grow-my-therapy-assignment.git
+   cd grow-my-therapy-assignment
+   ```
+
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server**:
+   ```bash
+   npm run dev
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+5. **Build for production**:
+   ```bash
+   npm run build
+   ```

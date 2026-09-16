@@ -59,3 +59,8 @@ desktop.ini
 *.tmp
 *.temp
 scratch/
+
+# AI & Assistant Files
+AGENTS.md
+CLAUDE.md
+.agents/
